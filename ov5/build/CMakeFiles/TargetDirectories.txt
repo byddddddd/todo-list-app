@@ -1,0 +1,4 @@
+D:/Dzynq_test/ov5/build/CMakeFiles/ov5.elf.dir
+D:/Dzynq_test/ov5/build/CMakeFiles/print_build_info.dir
+D:/Dzynq_test/ov5/build/CMakeFiles/edit_cache.dir
+D:/Dzynq_test/ov5/build/CMakeFiles/rebuild_cache.dir

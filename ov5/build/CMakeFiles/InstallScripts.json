@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Dzynq_test/ov5/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

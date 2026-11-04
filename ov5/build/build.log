@@ -1,0 +1,23 @@
+Command: cmd.exe /C set CC= && set CXX= && empyro.bat build_app -s d:\Dzynq_test\ov5\src -b d:\Dzynq_test\ov5\build
+[INFO]: Starting Application build process
+[INFO]: Building Application
+[1/3] ==========Application Build Information ==========
+
+Compiler Flags:  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/Dzynq_test/D
+zynq_test_demo/export/Dzynq_test_demo/sw/standalone_ps7_cortexa9_0/Xilinx.spec -ID:/Dzynq_test/Dzynq
+_test_demo/export/Dzynq_test_demo/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3  
+   -U__clang__  
+
+Linker Flags:       -Wl,-T -Wl,"D:/Dzynq_test/ov5/src/lscript.ld" -L"D:/Dzynq_test/ov5/src/" -L"D:/D
+zynq_test/Dzynq_test_demo/export/Dzynq_test_demo/sw/standalone_ps7_cortexa9_0/lib/" -L"/" -Wl,--star
+
+t-group,-lxilstandalone,-lxiltimer,-lxil,-lgcc,-lc -Wl,--end-group
+
+
+===========================================
+[2/3] Building C object CMakeFiles/ov5.elf.dir/main.c.obj
+[3/3] Linking C executable ov5.elf
+   text	   data	    bss	    dec	    hex	filename
+
+  51481	   1440	  28000	  80921	  13c19	ov5.elf
+

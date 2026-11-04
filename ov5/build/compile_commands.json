@@ -1,0 +1,8 @@
+[
+{
+  "directory": "D:/Dzynq_test/ov5/build",
+  "command": "D:\\vitis\\2026.1\\Vitis\\gnu\\aarch32\\nt\\gcc-arm-none-eabi\\bin\\arm-none-eabi-gcc.exe -ID:/Dzynq_test/ov5/src -isystem D:/Dzynq_test/Dzynq_test_demo/export/Dzynq_test_demo/sw/standalone_ps7_cortexa9_0/include -isystem D:/vitis/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include -isystem D:/vitis/2026.1/gnu/aarch32/nt/gcc-arm-none-eabi/x86_64-oesdk-mingw32/usr/lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/13.4.0/include-fixed -isystem D:/vitis/2026.1/Vitis/gnu/aarch32/nt/gcc-arm-none-eabi/aarch32-xilinx-eabi/usr/include  -DSDT -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -specs=D:/Dzynq_test/Dzynq_test_demo/export/Dzynq_test_demo/sw/standalone_ps7_cortexa9_0/Xilinx.spec -ID:/Dzynq_test/Dzynq_test_demo/export/Dzynq_test_demo/sw/standalone_ps7_cortexa9_0/include -Wall -Wextra      -O0  -g3     -U__clang__ -o CMakeFiles\\ov5.elf.dir\\main.c.obj -c D:\\Dzynq_test\\ov5\\src\\main.c",
+  "file": "D:\\Dzynq_test\\ov5\\src\\main.c",
+  "output": "CMakeFiles\\ov5.elf.dir\\main.c.obj"
+}
+]
